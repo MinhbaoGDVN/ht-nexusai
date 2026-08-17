@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàn tất | HT-NexusAI</title>
+
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+        <div class="hero-content">
+
+            <img
+                src="assets/images/logo.png"
+                alt="HT-NexusAI"
+                class="hero-logo"
+            >
+
+            <h1>HT-NexusAI đã sẵn sàng</h1>
+
+            <p>
+                Cảm ơn bạn đã thêm HT-NexusAI vào server Discord.
+                Bot hiện đã được cài đặt thành công.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="index.html" class="btn btn-primary">
+                    Về trang chủ
+                </a>
+
+                <a
+                    href="https://discord.com/app"
+                    target="_blank"
+                    class="btn btn-secondary"
+                >
+                    Mở Discord
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+        const params = new URLSearchParams(location.search);
+        const guildId = params.get("guild_id");
+
+        console.log(
+            guildId
+                ? `HT-NexusAI installed in guild ${guildId}`
+                : "Installation completed"
+        );
+    </script>
+
+</body>
+</html>
