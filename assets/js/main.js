@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href]').forEach(link=>{const url=new URL(link.href,location.href);if(url.origin===location.origin&&url.pathname===location.pathname&&url.hash){link.addEventListener('click',e=>{e.preventDefault();document.querySelector(url.hash)?.scrollIntoView({behavior:'smooth'})})}});
