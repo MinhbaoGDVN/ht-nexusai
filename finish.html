@@ -1,59 +1,33 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoàn tất | HT-NexusAI</title>
-
-    <link rel="icon" href="assets/images/logo.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HT-NexusAI - Một người bạn AI nói tiếng Việt trên Discord.">
+  <title>Finish | HT-NexusAI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="HT-NexusAI logo"><span>HT-NexusAI</span></a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="terms.html">Điều khoản</a>
+      <a href="privacy.html">Chính sách bảo mật</a>
+    </nav>
+  </header>
 
-    <main class="hero">
-        <div class="hero-content">
+  <main>
+    <section class="hero">
+      <img class="hero-logo" src="assets/images/logo.png" alt="HT-NexusAI logo">
+      <p class="eyebrow">HT-NexusAI Đã được cài đặt. Xin cảm ơn vì đã dùng dịch vụ của chúng tôi :)</p>
+    </section>
 
-            <img
-                src="assets/images/logo.png"
-                alt="HT-NexusAI"
-                class="hero-logo"
-            >
-
-            <h1>HT-NexusAI đã sẵn sàng</h1>
-
-            <p>
-                Cảm ơn bạn đã thêm HT-NexusAI vào server Discord.
-                Bot hiện đã được cài đặt thành công.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="index.html" class="btn btn-primary">
-                    Về trang chủ
-                </a>
-
-                <a
-                    href="https://discord.com/app"
-                    target="_blank"
-                    class="btn btn-secondary"
-                >
-                    Mở Discord
-                </a>
-            </div>
-
-        </div>
-    </main>
-
-    <script>
-        const params = new URLSearchParams(location.search);
-        const guildId = params.get("guild_id");
-
-        console.log(
-            guildId
-                ? `HT-NexusAI installed in guild ${guildId}`
-                : "Installation completed"
-        );
-    </script>
-
+  <footer>
+    <span>HT-NexusAI Beta 1.2.4</span>
+    <span><a href="terms.html">Điều khoản</a> · <a href="privacy.html">Bảo mật</a> · <a href="index.html">Trang chủ</a></span>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
