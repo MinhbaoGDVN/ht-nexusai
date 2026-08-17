@@ -8,7 +8,6 @@ Website tĩnh cho HT-NexusAI, gồm:
 - `assets/css/style.css`: CSS
 - `assets/js/main.js`: JavaScript
 - `assets/images/logo.png`: Logo HT-NexusAI
-- `create_website.bat`: Script tạo/cấu trúc website nhanh trên Windows
 
 Không cần npm hoặc package.
 
